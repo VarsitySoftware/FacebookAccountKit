@@ -171,4 +171,9 @@
     [self.commandDelegate sendPluginResult:pluginResult callbackId:commandGlobal.callbackId];
 }
 
+- (void)viewControllerDidCancel:(UIViewController<AKFViewController> *)viewController{	
+    CDVPluginResult* pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_ERROR messageAsString:nil];
+    [self.commandDelegate sendPluginResult:pluginResult callbackId:commandGlobal.callbackId];
+}
+
 @end
