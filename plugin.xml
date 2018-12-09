@@ -49,13 +49,13 @@
     <!-- ios configuration ends-->
     <!-- android configuration starts-->
     <platform name="android">
-        <config-file parent="/*" target="res/xml/config.xml">
+        <config-file parent="/resources" target="./res/xml/config.xml">
             <feature name="FacebookAccountKitLogin">
                 <param name="android-package" value="org.apache.cordova.FacebookAccountKit.FacebookAccountKitLogin" />
             </feature>
         </config-file>
         <source-file src="src/android/FacebookAccountKitLogin.xml" target-dir="res/values" />
-        <config-file parent="/*" target="res/values/FacebookAccountKitLogin.xml">
+        <config-file parent="/resources" target="./res/values/FacebookAccountKitLogin.xml">
             <string name="fbak_app_id">$APP_ID</string>
             <string name="fbak_app_name">$APP_NAME</string>
             <string name="fbak_app_ak_token">$AK_TOKEN</string>
