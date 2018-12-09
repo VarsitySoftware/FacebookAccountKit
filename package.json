@@ -3,7 +3,7 @@
   "version": "0.1.6",
   "description": "\n        Facebook Account Kit Login Plugin - Allows email and mobile logins using Facebook Account Kit. Now with background colors customization also available.\n        Docs: https://github.com/Mhusain/FacebookAccountKit\n    ",
   "cordova": {
-    "id": "cordova-plugin-facebook-account-kit",
+    "id": "com.varsitysoftware.plugins.facebookaccountkit",
     "platforms": [
       "ios",
       "android"
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Mhusain/FacebookAccountKit.git"
+    "url": "git+https://github.com/VarsitySoftware/FacebookAccountKit.git"
   },
   "keywords": [
     "cordova",
@@ -28,5 +28,5 @@
   "bugs": {
     "url": "https://github.com/Mhusain/FacebookAccountKit/issues"
   },
-  "homepage": "https://github.com/Mhusain/FacebookAccountKit#readme"
+  "homepage": "https://github.com/VarsitySoftware/FacebookAccountKit#readme"
 }
