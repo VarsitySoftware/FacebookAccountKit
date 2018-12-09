@@ -87,7 +87,7 @@
         </edit-config>
         <source-file src="src/android/FacebookAccountKitLogin.java" target-dir="src/org/apache/cordova/FacebookAccountKit" />
         <!-- account kit framework-->
-        <framework src="com.facebook.android:account-kit-sdk:4.+"/>
+        <framework src="src/android/plugin.gradle" custom="true" type="gradleReference"/>
     </platform>
     <!-- android configuration ends-->
 </plugin>
