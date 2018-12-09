@@ -55,7 +55,7 @@
             </feature>
         </config-file>
         <source-file src="src/android/FacebookAccountKitLogin.xml" target-dir="res/values" />
-        <config-file parent="resources" target="./app/src/main/res/values/FacebookAccountKitLogin.xml">
+        <config-file parent="/*" target="./app/src/main/res/values/FacebookAccountKitLogin.xml">
             <string name="fbak_app_id">$APP_ID</string>
             <string name="fbak_app_name">$APP_NAME</string>
             <string name="fbak_app_ak_token">$AK_TOKEN</string>
