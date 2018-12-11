@@ -79,7 +79,7 @@
             <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/fbak_app_id" />
             <meta-data android:name="com.facebook.accountkit.ClientToken" android:value="@string/fbak_app_ak_token" />
             <meta-data android:name="com.facebook.accountkit.FacebookAppEventsEnabled" android:value="false"/>
-            </activity>
+            
         </config-file>
         
         <source-file src="src/android/FacebookAccountKitLogin.java" target-dir="src/org/apache/cordova/FacebookAccountKit" />
