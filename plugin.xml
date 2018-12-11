@@ -79,7 +79,6 @@
             <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/fbak_app_id" />
             <meta-data android:name="com.facebook.accountkit.ClientToken" android:value="@string/fbak_app_ak_token" />
             <meta-data android:name="com.facebook.accountkit.FacebookAppEventsEnabled" android:value="false"/>
-            <activity android:name="com.facebook.accountkit.ui.AccountKitActivity" tools:replace="android:theme" android:theme="@style/AccountKitLoginTheme">
             </activity>
         </config-file>
         
